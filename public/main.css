@@ -1,0 +1,16 @@
+.form-control {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#getnews {
+  width: 20%;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}

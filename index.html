@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/main.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class ="container">
+
+    <div class ="col-md-6 col-md-offset-3">
+    <h1>BrewYourOwnNews</h1>
+      <form class="myform">
+          <select class="form-control" id="newsSection" name="select">
+            <option value="politics">Politics</option>
+            <option value="world">World</option>
+            <option value="sport">Sport</option>
+            <option value="business">Business</option>
+            <option value="technology">Technology</option>
+            <option value="lifestyle">Lifestyle</option>
+            <option value="travel">Travel</option>
+          </select>
+          <input class="btn btn-default" id="getNews" type="submit" value="Get News">
+        </form>
+  </div>
+</div>
+
+  <div id="news"></div>
+
+    <!-- Models -->
+    <script src="src/models/news.js"></script>
+    <script src="src/views/news.js"></script>
+
+    <!-- Controllers -->
+    <script src="src/controllers/findNews.js"></script>
+
+  </body>
+</html>
